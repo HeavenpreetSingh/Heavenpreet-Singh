@@ -1,0 +1,124 @@
+body{
+    background-color: #fff5e1;
+    /* background-color: #e3f5e9; */
+}
+#logo
+{
+    background-color: #1e544e;
+    
+}
+a{
+   
+    color: white;
+    text-decoration: none;
+}
+h2{
+    color:#ff8c42;
+    display: inline;
+    position: relative;
+    left: 900px;
+    
+}
+
+h1{
+    color:#1e544e;
+}
+h3{
+    color:#419730;
+}
+h4{
+    color:#2cbee5;
+    text-align: end;
+}
+span{
+  
+    color:#A0522D;
+}
+p{
+    color: #36405e;
+}
+#pets{
+   height:1200px;
+  
+ /* border:2px solid black; */
+   display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-evenly;
+     background-image: url(image.jpg);
+     background-size:contain;
+   
+
+}
+.card{
+    border:2px solid black;
+    height: 500px;
+    width: 480px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px #A0522D;
+    padding:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition:1s ease-in-out 0.3s;
+}
+.card:hover{
+    box-shadow: 3px 3px 20px #1e544e;
+    background-color: #f1f8f4;
+}
+img{
+    height: 275px;
+    width:460px;
+    position: relative;
+    left: 10px;
+    top:5px;
+    border-radius: 30px;
+}
+.card:has(button:hover) {
+
+    animation-name: bang;
+    animation-duration:1s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+
+}
+button{
+    background-color: #1e544e;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+
+@keyframes bang {
+  0% {
+    
+    background-color:#f1f8f4;
+  }
+  100% {
+   
+    background-color: #d0f0c0;
+  }
+}
+
+.footer-content {
+
+   
+  background-color: #c8e6c9;
+  color: #36405e;
+  text-align: start;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  height: 140px;
+  
+}
+#img{
+ 
+ 
+  position:absolute;
+  top: 1610px;
+  left:1010px;
+}
+p a {
+    color:#36405e;
+}
